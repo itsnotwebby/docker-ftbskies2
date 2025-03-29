@@ -7,7 +7,7 @@ LABEL homepage.group=Minecraft
 LABEL homepage.name="FTB Skies"
 LABEL homepage.icon="https://apps.modpacks.ch/modpacks/art/99/FTB%20Skies%20512x512.png"
 LABEL homepage.widget.type=minecraft
-LABEL homepage.widget.url=FTBSkies:25565
+LABEL homepage.widget.url=udp://FTBSkies:25565
 
 
 RUN apt-get update && apt-get install -y curl && \
