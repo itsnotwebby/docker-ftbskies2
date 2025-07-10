@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM openjdk:17.0.2-jdk-buster
+FROM openjdk:21-buster
 
 LABEL version="1.3.1"
 LABEL homepage.group=Minecraft
